@@ -1,0 +1,34 @@
+.wrapper {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.btn-signin-social {
+  width: 100%;
+  display: inline-flex;
+  font-size: 1.6rem;
+  /* padding: 8px 12px; */
+  background-color: white;
+  color: #242424;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(15, 15, 15, 0.15);
+  box-shadow: 0 1px 2px rgba(15, 15, 15, 0.05);
+  transition: background 0.02s ease-in 0s;
+}
+
+.btn-signin-social:hover {
+  box-shadow:
+    inset 0 0 1px rgba(35, 131, 226, 0.57),
+    inset 0 0 2px rgba(35, 131, 226, 0.35);
+  background: rgba(55, 53, 47, 0.08);
+}
+
+.btn-signin-social:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.btn-signin-social > img {
+  margin-right: 12px;
+}
